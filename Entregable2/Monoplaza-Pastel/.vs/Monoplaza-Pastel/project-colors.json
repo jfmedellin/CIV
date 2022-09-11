@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "372b1ae2-76e5-4ef5-a8bb-64aecfe5d0ad": {
+      "ProjectGuid": "372b1ae2-76e5-4ef5-a8bb-64aecfe5d0ad",
+      "DisplayName": "Monoplaza-Pastel",
+      "ColorIndex": 0
+    },
+    "8e7c3da5-2453-4574-9415-c8144c60d50a": {
+      "ProjectGuid": "8e7c3da5-2453-4574-9415-c8144c60d50a",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 1
+    },
+    "7cc24c70-8a4b-4197-95f6-cf884e10660e": {
+      "ProjectGuid": "7cc24c70-8a4b-4197-95f6-cf884e10660e",
+      "DisplayName": "Pasteles",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

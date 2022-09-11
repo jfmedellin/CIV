@@ -1,0 +1,8 @@
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\bin\Debug\Monoplaza-Pastel.exe.config
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\bin\Debug\Monoplaza-Pastel.exe
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\bin\Debug\Monoplaza-Pastel.pdb
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\obj\Debug\Monoplaza-Pastel.csproj.AssemblyReference.cache
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\obj\Debug\Monoplaza-Pastel.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\obj\Debug\Monoplaza-Pastel.csproj.CoreCompileInputs.cache
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\obj\Debug\Monoplaza-Pastel.exe
+C:\Users\pc\Downloads\Monoplaza-Pastel\Monoplaza-Pastel\Monoplaza-Pastel\obj\Debug\Monoplaza-Pastel.pdb

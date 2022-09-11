@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monoplaza-Pastel", "Monoplaza-Pastel\Monoplaza-Pastel.csproj", "{372B1AE2-76E5-4EF5-A8BB-64AECFE5D0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pasteles", "Pasteles\Pasteles.csproj", "{7CC24C70-8A4B-4197-95F6-CF884E10660E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372B1AE2-76E5-4EF5-A8BB-64AECFE5D0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372B1AE2-76E5-4EF5-A8BB-64AECFE5D0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372B1AE2-76E5-4EF5-A8BB-64AECFE5D0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372B1AE2-76E5-4EF5-A8BB-64AECFE5D0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC24C70-8A4B-4197-95F6-CF884E10660E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC24C70-8A4B-4197-95F6-CF884E10660E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC24C70-8A4B-4197-95F6-CF884E10660E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC24C70-8A4B-4197-95F6-CF884E10660E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09412D20-0BFB-465B-9E49-45FFAF31B0C0}
+	EndGlobalSection
+EndGlobal
