@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Monoplaza-Pastel"
+    "\\Monoplaza-Pastel",
+    "\\Pasteles"
   ],
-  "SelectedNode": "\\Monoplaza-Pastel\\Monoplaza-Pastel.csproj",
+  "SelectedNode": "\\Pasteles\\Ingrediente.cs",
   "PreviewInSolutionExplorer": false
 }

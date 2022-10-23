@@ -1,0 +1,25 @@
+@using PageProducts.Data;
+
+@page "/product-detail/{Code}/details"
+
+@code {
+  [Parameter]
+  public string Code { get; set; }
+}
+
+@code {
+    InMemoryProducts data = new InMemoryProducts();
+}
+
+<h3>Detalles</h3>
+
+@if (Code != null)
+{
+    var product = data.getProducts().Where(p => p.Code == Code).FirstOrDefault();
+    if (product != null)
+    {
+        <p>Código: @product.Code</p>
+        <p>Nombre: @product.Name</p>
+        <p>Precio: @product.Price</p>
+    }
+}

@@ -1,0 +1,54 @@
+@page "/contacto"
+
+@code {
+    string resultado = null;
+    class Contacto {
+        public string Nombre { get; set; }
+        public string Email { get; set; }
+        public string Telefono { get; set; }
+        public string Mensaje { get; set; }
+    }
+}
+
+@code {
+    Contacto contacto = new Contacto();
+}
+
+<PageTitle>Contacto</PageTitle>
+
+<h3>Contacto</h3>
+
+<EditForm Model=@contacto OnSubmit=@SubirFormulario>
+  <div class="form-group">
+    <label for="Nombre">Nombre</label>
+    <InputText @bind-Value=contacto.Nombre class="form-control" id="Nombre" />
+  </div>
+  <div class="form-group">
+    <label for="Email">Email</label>
+    <InputText @bind-Value=contacto.Email class="form-control" id="Email" />
+  </div>
+  <div class="form-group">
+    <label for="Telefono">Teléfono</label>
+    <InputText @bind-Value=contacto.Telefono class="form-control" id="Telefono" />
+  </div>
+  <div class="form-group">
+    <label for="Mensaje">Mensaje</label>
+    <InputText @bind-Value=contacto.Mensaje class="form-control" id="Mensaje" />
+  </div>
+  <input type="submit" class="btn btn-primary" value="Guardar"/>
+</EditForm>
+
+@if (resultado != null) {
+  <div class="alert alert-success" role="alert">
+    @((MarkupString)@resultado)
+  </div>
+}
+
+@code {
+    void SubirFormulario(EditContext context) {
+        resultado = "Hola soy, " + contacto.Nombre + ". Quiero contactarme con ustedes por lo siguiente:<br>" + contacto.Mensaje;
+        resultado += "<br>Pueden comunicarse conmigo en:<br>";
+        resultado += "Correo electrónico: " + contacto.Email + "<br>";
+        resultado += "Teléfono: " + contacto.Telefono;
+    }
+}

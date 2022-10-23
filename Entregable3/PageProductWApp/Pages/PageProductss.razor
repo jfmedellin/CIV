@@ -1,0 +1,32 @@
+@using PageProducts.Data;
+
+@page "/productos"
+
+@code {
+    InMemoryProducts data = new InMemoryProducts();
+}
+
+<div class="row">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Detalles</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var e in data.getProducts())
+            {
+                <tr>
+                    <td>@e.Code</td>
+                    <td>@e.Name</td>
+                    <td>@e.Price</td>
+                    <td><a href="/product-detail/@e.Code/details">Ver</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
